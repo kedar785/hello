@@ -44,19 +44,3 @@
 // printf("%d",s1.RollNo);
 // }
 
-#include<stdio.h>
-struct student{
-    char name[10];
-    int RollNo;
-    float marks;
-};
-int main (){
-    struct student s1[5];
-    for(int i=0;i<5;i++){
-        printf("Entter your name");
-        scanf(" %s",s1[i].name);
-        scanf("%d",s1[i].RollNo);
-        scanf("%f",s1[i].marks);
-    }
-
-}
