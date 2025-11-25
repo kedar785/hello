@@ -21,7 +21,7 @@ int main(){
     printf("Enter second string: ");
     scanf("%s",s2);
     if(isRotation(s1,s2)){
-        printf("no it is a rotation. \n");
+        printf("yes it is a rotation. \n");
     }
     else{
           printf("no it is not a rotation. \n");
